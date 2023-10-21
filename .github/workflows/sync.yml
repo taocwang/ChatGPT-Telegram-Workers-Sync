@@ -15,7 +15,7 @@ jobs:
       uses: repo-sync/github-sync@v2
       with:
         source_repo: "https://github.com/TBXark/ChatGPT-Telegram-Workers.git"
-        target_repo: "https://github.com/taocwang/ChatGPT-Telegram-Workers"
+        target_repo: "https://github.com/taocwang/ChatGPT-Telegram-Workers.git"
         source_branch: "master"
         destination_branch: "master"
         github_token: ${{ secrets.PAT }}
